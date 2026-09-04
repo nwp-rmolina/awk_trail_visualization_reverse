@@ -89,7 +89,7 @@ function createTrailSymbol(scale, colors) {
 						capType: "ROUND",
 						joinType: "ROUND",
 						width: 1 * scaleFactor,
-						color: [255, 255, 255, 255],
+						color: colors.main,
 					},
 					{
 						type: "CIMSolidStroke",
@@ -105,7 +105,7 @@ function createTrailSymbol(scale, colors) {
 						capType: "ROUND",
 						joinType: "ROUND",
 						width: 4 * scaleFactor,
-						color: colors.main,
+						color: [255, 255, 255, 255],
 					},
 				],
 			},
